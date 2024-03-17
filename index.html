@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
   <body>
-    <h1 class="text-red-900 bg-orange-700">Hello world</h1>
+    <nav class="relative container mx-auto p-6 shadow-sm">
+      <div class="flex items-center justify-between">
+        <div>
+          <img src="./assets/images/logo.svg" alt="" />
+        </div>
+        <!-- Menu items -->
+        <div class="hidden md:flex space-x-2 font-medium">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden md:block px-6 py-2.5 bg-brightRed rounded-full font-medium text-white hover:bg-brightRedLight"
+          >Get Started</a
+        >
+      </div>
+    </nav>
   </body>
 </html>
